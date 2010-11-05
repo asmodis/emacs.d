@@ -1,0 +1,11 @@
+(provide 'gd-look-config)
+
+(add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-10"))
+(add-to-list 'default-frame-alist '(height . 32))
+(add-to-list 'default-frame-alist '(width . 90))
+(add-to-list 'default-frame-alist '(background-mode . "dark"))
+(add-to-list 'default-frame-alist '(background-color . "gray3"))
+(add-to-list 'default-frame-alist '(foreground-color . "gray95"))
+(add-to-list 'default-frame-alist '(cursor-color . "gray70"))
+(add-to-list 'default-frame-alist '(mouse-color . "gray70"))
+(add-to-list 'default-frame-alist '(cursor-type . hbar))
