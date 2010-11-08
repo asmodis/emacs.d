@@ -1,11 +1,21 @@
 (provide 'gd-base-config)
 
+ ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Auto-generated stuff configuration ;;;
+ ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;; Keep customize stuff seperate
 (setq custom-file (concat gd-emacs-dir "/custom.el"))
 
-;;; Don't make backups
-;;; (TODO: put all backups in a single directory)
-(setq make-backup-files nil)
+;;; Put all backups in a single directory
+(setq make-backup-files t ;; do make backups
+  backup-by-copying t     ;; and copy them here
+  backup-directory-alist '(("." . gd-backup-dir)) 
+  version-control t
+  kept-new-versions 2
+  kept-old-versions 5
+  delete-old-versions t)
+
 
 ;;; Require stuff which is needed all the time
 (require 'cl)

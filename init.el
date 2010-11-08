@@ -5,6 +5,7 @@
 (defconst gd-emacs-dir "~/.emacs.d/")
 (defconst gd-config-dir (concat gd-emacs-dir "config"))
 (defconst gd-pkg-dir (concat gd-emacs-dir "pkg"))
+(defconst gd-backup-dir (concat gd-emacs-dir "backup"))
 
  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Adjusting emacs load path ;;;
