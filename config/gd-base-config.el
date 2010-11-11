@@ -10,7 +10,7 @@
 ;;; Put all backups in a single directory
 (setq make-backup-files t ;; do make backups
   backup-by-copying t     ;; and copy them here
-  backup-directory-alist '(("." . gd-backup-dir)) 
+  backup-directory-alist '(("." . "/home/asmodis/.emacs.d/backup"))
   version-control t
   kept-new-versions 2
   kept-old-versions 5
