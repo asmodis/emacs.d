@@ -1,0 +1,13 @@
+Configuration for the emacs editor.
+
+Layout:
+init.el : The main startup file, sets load-path and loads all files under the config dir.
+custom.el : contains all customizations
+
+config dir: contains all my configurations.
+pkg dir: contains additional packages which are used by my configuration
+backup dir: the backup directory, all automatic generated backup files.
+
+snippet dir: snippets for yasnippet
+cache dir: some cache files
+share dir: from the auctex package (maybe it can be deleted...)
