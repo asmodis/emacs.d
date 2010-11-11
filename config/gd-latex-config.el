@@ -5,6 +5,7 @@
 
 (add-hook 'LaTeX-mode-hook (lambda ()
    (outline-minor-mode t)
+   (flyspell-mode t)
    (auto-fill-mode t)
    (face-remap-add-relative 'font-lock-comment-face 
 			    :foreground "gray30" :slant 'italic)
