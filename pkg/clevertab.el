@@ -10,10 +10,7 @@
   (interactive)
   (let ((tmp-point (point)))
     (progn
-      (message "Indent-or-expand. Point is %s" tmp-point)
       (indent-for-tab-command)
-      (message "Tried indent. Point is %s" (point))
-      (message "Tried indent. tmp-point is %s" tmp-point)
       (if (equal tmp-point (point))
 	  (if (looking-at "\\_>") (hippie-expand nil))))))
 
