@@ -6,7 +6,7 @@
 
 ;;; Keep customize stuff seperate
 (setq custom-file (concat gd-emacs-dir "/custom.el"))
-(load custom-file)
+(load "custom")
 
 ;;; Put all backups in a single directory
 (setq make-backup-files t ;; do make backups
